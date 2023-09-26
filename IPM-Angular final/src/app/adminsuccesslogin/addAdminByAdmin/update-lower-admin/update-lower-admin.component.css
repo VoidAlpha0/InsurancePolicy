@@ -1,0 +1,42 @@
+
+.container.card {
+  background-color:cornsilk; /* Set the background color for the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form title */
+.title {
+  color: #010e04; /* Set the text color for the title */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the form labels */
+.form-label {
+  font-weight: bold;
+}
+
+/* Style the form inputs */
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Style the submit button */
+.btn-success {
+  background-color: #0b0b0b; /* Set the background color for the button */
+  color: #fff; /* Set the text color for the button */
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Adjust the hover effect for the button */
+.btn-success:hover {
+  background-color:darkgreen; /* Darken the background color on hover */
+}

@@ -1,0 +1,69 @@
+
+
+.container {
+  max-width: 600px;
+  width: 100%;
+
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(132, 20, 20, 1.5);
+  background: linear-gradient(135deg, rgb(82, 54, 82), rgb(243, 243, 247));
+  background: rgba(8, 8, 8, 0.3);
+}
+
+.box-form {
+
+  background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/210125155452-underscored-family-icons-in-group-of-hands.jpg?q=w_1600,h_901,x_0,y_0,c_fill");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.rounded-image {
+  border-radius: 100%;
+  height: 30%;
+  width: 20%;
+}
+
+label {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  margin-left: -6em;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: medium;
+}
+
+button {
+  background: black;
+  border-color: black;
+  size: 20px;
+  width: 200px;
+  margin-right: 2em;
+
+}
+
+/* Add this CSS to center-align the labels and inputs within each row */
+.row.justify-content-center.mb-2 {
+  display: flex;
+  align-items: center;
+}
+
+.row.justify-content-center.mb-2 .col-md-2 {
+  margin-left: -3em;
+}
+
+/* Center-align the Gender dropdown similar to the Age input field */
+.row.justify-content-center.mb-2 select {
+  width: 280%;
+}

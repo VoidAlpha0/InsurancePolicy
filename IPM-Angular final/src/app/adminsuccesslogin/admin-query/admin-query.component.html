@@ -1,0 +1,32 @@
+<app-adminnavbar></app-adminnavbar>
+<div class="container " style="background-color: cornsilk; " >
+    <br><br><br>
+
+    <div class="row justify-content-center ">
+        <h2 class="text-black  text-center">VIEW CUSTOMER QUERY<br><br></h2>
+        <table class="table  smaller-table" >
+            <thead style="color: white; background-color: black;">
+                <tr>
+                    <th scope="row" >Q_ID</th>
+                    <th scope="col">Customer Email</th>
+                    <th scope="col">Question Topic</th>
+                    <th scope="col">Question Details</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Reply</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let q of allQueryData" style="color: black; background-color: white;">
+                    <th  style="color: white; background-color: black;" >{{q.qid}}</th>
+                    <td >{{q.customeremail}}</td>
+                    <td>{{q.qtopic}}</td>
+                    <td>{{q.qdetails}}</td>
+                    <td>{{q.qdate}}</td>
+                    <td><a>
+                    <button class="btn btn-success" (click)="replySms(q.qid)">
+                                <i class="bi bi-reply-fill">&nbsp;reply</i></button></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

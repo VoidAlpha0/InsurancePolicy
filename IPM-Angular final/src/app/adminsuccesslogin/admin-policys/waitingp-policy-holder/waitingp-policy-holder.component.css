@@ -1,0 +1,26 @@
+/* Add these classes in your component's CSS */
+.Approved {
+    color: green;
+    font-size: large;
+    font-weight: 600;
+}
+
+.Rejected {
+    color: red;
+    font-size: large;
+    font-weight: 600;
+}
+th{ 
+    color: black;
+}
+th{
+    border-color:  inherit ;
+    background-color: black;
+    color: aliceblue;
+}
+#box{
+    background-color: cornsilk;
+}
+tr{
+    background-color: black;
+}

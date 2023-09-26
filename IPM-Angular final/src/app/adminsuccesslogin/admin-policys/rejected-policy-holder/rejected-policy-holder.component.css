@@ -1,0 +1,10 @@
+th{
+    background-color:black;
+    color:aliceblue;
+}
+#num{
+       color: aliceblue;
+}
+:scope{
+    background-color: black;
+}

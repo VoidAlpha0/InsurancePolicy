@@ -1,0 +1,23 @@
+/* Set background color for the entire section */
+.row.justify-content-evenly {
+    justify-content: center;
+    background-color:cornsilk; /* Background color for the section */
+    padding: 20px;
+  }
+  
+  /* Style the buttons with a black background */
+  .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #000; /* Set the background color to black */
+    color: #fff; /* Set the text color to white */
+  }
+  
+  /* Adjust the hover effect for the buttons */
+  .btn:hover {
+    background-color: #333; /* Darken the background color on hover */
+  }
+  body{
+    background-color: cornsilk;
+  }
+ 

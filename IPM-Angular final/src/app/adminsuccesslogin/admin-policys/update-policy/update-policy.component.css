@@ -1,0 +1,12 @@
+
+th{ 
+    color: black;
+}
+th{
+    border-color:  inherit ;
+    background-color: black;
+    color: aliceblue;
+}
+#box{
+    background-color: cornsilk;
+}

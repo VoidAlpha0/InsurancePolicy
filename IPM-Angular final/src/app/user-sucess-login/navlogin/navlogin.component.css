@@ -1,0 +1,19 @@
+
+ /*  */
+
+
+a {
+  cursor: pointer;
+}
+
+li {
+  color: whitesmoke;
+}
+
+.go-back-link {
+  cursor: pointer;
+  /* Change the cursor to a pointer on hover */
+}
+
+
+/*  */

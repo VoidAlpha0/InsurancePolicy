@@ -1,0 +1,12 @@
+.custom-container {
+      background-image: url('src/assets/insurancehome.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 75vh;
+      background-attachment: fixed;
+      filter: blur(3px); /* Adjust the blur value as needed */
+  }
+  
+  
+  

@@ -1,0 +1,46 @@
+tr{
+      font-size: medium;
+      
+}
+
+*{
+      scroll-behavior: smooth;
+}
+.custom-form {
+      background-color: cornsilk;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px cornsilk;
+  }
+  
+  .form-title {
+      color: #1b0b3a;
+      font-weight: 400;
+  }
+  
+  .form-group {
+      margin-bottom: 20px;
+  }
+  
+  .form-control {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid ;
+      border-radius: 4px;
+  }
+  
+  .btn-custom {
+      
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      font-weight: 500;
+      cursor: pointer;
+  }
+  
+ 
+  
+
+
+

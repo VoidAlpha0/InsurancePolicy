@@ -1,0 +1,49 @@
+<!-- <app-adminnavbar></app-adminnavbar>
+<br><br>
+
+<div class="row justify-content-evenly mb-5 mt-5" style="margin-left: 6em;">
+
+    <a class="nav-link col-md-3" href="viewadmins">
+        <button class="text-center  btn btn-primary">
+            <h5><i class="bi bi-eye-fill"></i> &nbsp;View all Admin</h5>
+        </button></a>
+
+    <a class="nav-link col-md-3" href="addadmin">
+        <button class="text-center  btn btn-success">
+            <h5><i class="bi bi-plus-circle-fill"></i> &nbsp;Add new Admin</h5>
+        </button></a>
+
+    <router-outlet></router-outlet>
+
+
+
+</div> -->
+<app-adminnavbar></app-adminnavbar>
+<br><br>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+
+    <div class="col-md-6 text-center mb-3">
+      <a class="btn btn-dark btn-block" href="viewadmins">
+        <i class=""></i> View all Admin
+      </a>
+    </div>
+
+    <div class="col-md-6 text-center mb-3">
+      <a class="btn btn-dark btn-block" href="addadmin">
+        <i class=""></i> Add new Admin
+      </a>
+    </div>
+
+  </div>
+
+  <router-outlet></router-outlet>
+</div>
+
+<style>
+  body {
+    background-color: cornsilk;
+  }
+</style>
+

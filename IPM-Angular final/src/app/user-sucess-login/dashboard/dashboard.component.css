@@ -1,0 +1,39 @@
+.icon {
+    font-size: 48px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.card {
+    border: 90%;
+    transition: transform 0.2s;
+    /* background: linear-gradient(to bottom, #291a46, #201530); */
+    /* Replace colors with your desired gradient */
+    background: black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 18px;
+    color: whitesmoke;
+
+
+}
+#dashboard {
+    background-color:cornsilk
+    
+  }
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+<app-adminnavbar></app-adminnavbar>
+
+<div class="container" style="background-color: cornsilk;">
+  <br><br><br><br><br>
+  <div class="row mt-5">
+    <div class="col-md-6 offset-md-3">
+      <div class="card shadow" >
+        <div class="card-body">
+          <form (ngSubmit)="sendAns()">
+            <h4 class="text-primary text-center mb-4">
+              <i class="bi bi-reply"></i> REPLY USER
+            </h4>
+            <div class="mb-3">
+              <textarea class="form-control" type="text" id="qanswer" name="qanswer" rows="3"
+                [(ngModel)]="questions.qanswer" placeholder="Enter your reply here"></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-success">
+                 Send
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

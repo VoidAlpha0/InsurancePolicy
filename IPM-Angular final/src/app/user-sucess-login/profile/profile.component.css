@@ -1,0 +1,34 @@
+.container {
+
+  background-color: cornsilk;
+  padding: 15px;
+  width: 50%;
+
+}
+
+
+
+
+label {
+  font-size: large;
+  font-weight: bold;
+  color: #0d1117;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: medium;
+}
+
+button {
+  size: 20px;
+
+}
+
+.custom-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+}

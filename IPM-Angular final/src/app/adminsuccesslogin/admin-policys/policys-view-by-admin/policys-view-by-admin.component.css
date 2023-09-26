@@ -1,0 +1,16 @@
+.custom-table th,
+.custom-table td {
+    padding: 15px;
+    /* Adjust this value as needed */
+}
+th{ 
+    color: black;
+}
+th{
+    border-color:  inherit ;
+    background-color: black;
+    color: aliceblue;
+}
+#box{
+    background-color: cornsilk;
+}
