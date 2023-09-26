@@ -1,0 +1,54 @@
+CREATE TABLE `admin` (
+  `adminid` bigint NOT NULL,
+  `admin_join_date` varchar(255) DEFAULT NULL,
+  `adminaddress` varchar(255) DEFAULT NULL,
+  `adminage` varchar(255) DEFAULT NULL,
+  `adminemail` varchar(255) NOT NULL,
+  `admingender` varchar(255) DEFAULT NULL,
+  `adminname` varchar(255) NOT NULL,
+  `adminpassword` varchar(255) DEFAULT NULL,
+  `adminphno` varchar(255) DEFAULT NULL,
+  `seniormangeremail` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`adminid`),
+  UNIQUE KEY `UK_3w9y88fknr80ok41jwbn2r6p3` (`adminemail`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+CREATE TABLE `customer` (
+  `cid` bigint NOT NULL,
+  `caddress` varchar(255) DEFAULT NULL,
+  `cage` varchar(255) DEFAULT NULL,
+  `cemail` varchar(255) NOT NULL,
+  `cgender` varchar(255) DEFAULT NULL,
+  `cname` varchar(255) DEFAULT NULL,
+  `cpassword` varchar(255) DEFAULT NULL,
+  `cphno` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`cid`),
+  UNIQUE KEY `UK_cht16e7o25ot2t0ru0jq9vqwa` (`cemail`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+CREATE TABLE `customer_apply_policies` (
+  `appid` bigint NOT NULL,
+  `customeremail` varchar(255) NOT NULL,
+  `customername` varchar(255) NOT NULL,
+  `policy_catagory` varchar(255) NOT NULL,
+  `policy_name` varchar(255) DEFAULT NULL,
+  `policy_price` varchar(255) DEFAULT NULL,
+  `policyapplydate` varchar(255) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`appid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+CREATE TABLE `policy` (
+  `pid` bigint NOT NULL,
+  `add_date_of_policy` varchar(255) DEFAULT NULL,
+  `policycatagory` varchar(255) NOT NULL,
+  `policyname` varchar(255) NOT NULL,
+  PRIMARY KEY (`pid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+CREATE TABLE `questions_customer` (
+  `qid` bigint NOT NULL,
+  `answerdate` varchar(255) DEFAULT NULL,
+  `customeremail` varchar(255) NOT NULL,
+  `qanswer` varchar(255) DEFAULT NULL,
+  `qdate` varchar(255) DEFAULT NULL,
+  `qdetails` varchar(255) NOT NULL,
+  `qtopic` varchar(255) NOT NULL,
+  PRIMARY KEY (`qid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
